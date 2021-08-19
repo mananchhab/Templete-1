@@ -1,0 +1,93 @@
+.body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.bgimage {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  /*  
+  min-width: 100vw;*/
+  z-index: -100;
+  /* 
+  min-height: 100vh; */
+  filter: blur(0px) grayscale(10%);
+}
+.imagecontainer {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.navbar-nav {
+  margin: auto;
+  font-size: 23px;
+  padding-right: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#topText {
+  font-size: 2.5rem;
+  color: #e0e3eb;
+  width: 50%;
+  font-weight: bold;
+  /* padding-top: 5rem;
+   padding-left: 1.2rem; */
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f093fb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to bottom right,
+    rgba(240, 147, 251, 1),
+    rgba(245, 87, 108, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to bottom right,
+    rgba(240, 147, 251, 1),
+    rgba(245, 87, 108, 1)
+  );
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+.btn1 {
+  align-content: center;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 0.5rem;
+  font-family: Georgia;
+  color: #f0f0f0;
+  font-size: 2.2rem;
+  background: #eef1f141;
+  border: 3px solid #ffffff;
+  padding: 1.6rem 2.1rem 1.6rem 2.1rem;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  color: white;
+  background: #c1c1c2ab;
+  text-decoration: none;
+}
+.rform {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

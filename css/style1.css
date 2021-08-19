@@ -1,0 +1,29 @@
+.navbar-nav {
+  margin: auto;
+  font-size: 23px;
+  padding-right: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.bgimage {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  /*  
+  min-width: 100vw;*/
+  z-index: -100;
+  /* 
+  min-height: 100vh; */
+  filter: blur(4px) grayscale(10%);
+}
+.imagecontainer {
+  width: 100vw;
+
+  overflow: hidden;
+}
+.Heading {
+  font-size: 2.8rem;
+  color: #f4f4f8;
+  width: 50%;
+  font-weight: bold;
+}
